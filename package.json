@@ -1,0 +1,41 @@
+{
+  "name": "graphistic-portfolio",
+  "version": "1.0.0",
+  "description": "a static web site containing the graph showing publisher's experiences.",
+  "main": "index.js",
+  "homepage": "https://github.com/nori-tnk/graphistic-portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-client": "npm run clean && parcel build client/src/index.html --out-dir client/dist",
+    "dev-client": "npm run clean && parcel client/src/index.html --out-dir client/dist",
+    "clean": "rm -rf .cache client/dist",
+    "predeploy": "npm run build-client",
+    "deploy": "gh-pages -d client/dist"
+  },
+  "author": "nori-tnk",
+  "license": "MIT",
+  "dependencies": {
+    "cytoscape": "^3.14.1",
+    "cytoscape-d3-force": "^1.1.4",
+    "cytoscape-graphml": "^1.0.6",
+    "cytoscape-popper": "^1.0.6",
+    "d3-force": "^2.0.1",
+    "eventemitter3": "^4.0.0",
+    "grommet": "^2.12.0",
+    "grommet-icons": "^4.4.0",
+    "history": "^4.10.1",
+    "jquery": "^3.5.0",
+    "parcel-bundler": "^1.12.4",
+    "popper.js": "^1.16.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "regenerator-runtime": "^0.13.5",
+    "styled-components": "^5.1.0",
+    "tippy.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "prettier": "2.0.4"
+  }
+}
