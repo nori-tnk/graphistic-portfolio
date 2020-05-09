@@ -20,7 +20,7 @@ class GlobalFooter extends Component {
         <Nav>
           <Anchor
             icon={<Github />}
-            href={config.externalLinks.githubRepo.path}
+            href={config.externalLinks.githubHome.path}
           />
         </Nav>
       </Footer>

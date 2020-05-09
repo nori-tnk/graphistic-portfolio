@@ -27,9 +27,13 @@ const config = {
     title: "Graph",
   },
   externalLinks: {
+    githubHome: {
+      title: "nori-tnk",
+      path: "https://github.com/nori-tnk",
+    },
     githubRepo: {
       title: "nori-tnk/static-graphistic-portfolio",
-      path: "https://github.com/nori-tnk/static-graphistic-portfolio",
+      path: "https://github.com/nori-tnk/graphistic-portfolio",
     },
     demoVid: {
       title: "Graph app quick guide",

@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "a static web site containing the graph showing publisher's experiences.",
   "main": "index.js",
-  "homepage": "https://github.com/nori-tnk/graphistic-portfolio",
+  "homepage": "https://nori-tnk.github.io/graphistic-portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-client": "npm run clean && parcel build client/src/index.html --out-dir client/dist",
+    "build-client": "npm run clean && parcel build client/src/index.html --out-dir client/dist --public-url https://nori-tnk.github.io/graphistic-portfolio",
     "dev-client": "npm run clean && parcel client/src/index.html --out-dir client/dist",
     "clean": "rm -rf .cache client/dist",
     "predeploy": "npm run build-client",

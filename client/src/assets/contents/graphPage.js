@@ -35,8 +35,8 @@ ${license.body}`,
     heading: `### Achknowledgement & Further info`,
     body: (pathToGithubRepo) => `
 This graph app was built upon top of an execellent library called 
-[Cytoscape.js](https://js.cytoscape.org/) and its extensions, including d3-force layout engine.
-The source code including other pages in this web site can be found [here](${pathToGithubRepo}).
+<a href="https://js.cytoscape.org/" target="_blank">Cytoscape.js</a> and its extensions, including d3-force layout engine.
+The source code including other pages in this web site can be found <a href="${pathToGithubRepo}" target="_blank">here</a>.
 `,
   },
 };
