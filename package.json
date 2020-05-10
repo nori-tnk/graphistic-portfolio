@@ -6,11 +6,11 @@
   "homepage": "https://nori-tnk.github.io/graphistic-portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-client": "npm run clean && parcel build client/src/index.html --out-dir client/dist --public-url https://nori-tnk.github.io/graphistic-portfolio",
-    "dev-client": "npm run clean && parcel client/src/index.html --out-dir client/dist",
-    "clean": "rm -rf .cache client/dist",
+    "build-client": "npm run clean && parcel build client/src/index.html --out-dir doc --public-url https://nori-tnk.github.io/graphistic-portfolio",
+    "dev-client": "npm run clean && parcel client/src/index.html --out-dir doc",
+    "clean": "rm -rf .cache doc",
     "predeploy": "npm run build-client",
-    "deploy": "gh-pages -d client/dist"
+    "deploy": "gh-pages -d doc"
   },
   "author": "nori-tnk",
   "license": "MIT",
