@@ -8,9 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-client": "npm run clean && parcel build client/src/index.html --out-dir docs --public-url https://nori-tnk.github.io/graphistic-portfolio",
     "dev-client": "npm run clean && parcel client/src/index.html --out-dir docs",
-    "clean": "rm -rf .cache docs",
-    "predeploy": "npm run build-client",
-    "deploy": "gh-pages -d docs"
+    "clean": "rm -rf .cache docs"
   },
   "author": "nori-tnk",
   "license": "MIT",
@@ -35,7 +33,6 @@
     "tippy.js": "^5.2.1"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0",
     "prettier": "2.0.4"
   }
 }
