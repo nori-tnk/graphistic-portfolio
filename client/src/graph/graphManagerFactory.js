@@ -31,7 +31,10 @@ class GraphManager {
     this.viewStateManager.render();
 
     if (demo) {
-      this.demoPlayer = demoPlayerFactory(this).randomlyTraverse();
+      this.demoPlayer = demoPlayerFactory(this);
+      this.cy.on("layoutstop", () => {
+        this.demoPlayer.randomlyTraverse();
+      });
     } else {
       this.nodeBeansManager = new SlimifyingService(this.nodes);
       this.searcher = new SearchService(this);
