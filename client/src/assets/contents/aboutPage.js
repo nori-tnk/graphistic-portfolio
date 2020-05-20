@@ -4,7 +4,7 @@ const contents = {
     `,
     body: (pathToGraphPage) => `
 Greetings! My name is TANAKA Noritsugu. I am a web developer with particular interests on blockchain, graph database and visualization technologies. 
-My primary IT skills include, but are not limited in, Java, JavaScript and Neo4j, as well as some high-level knowledge on blockchain technologies.
+My primary IT skills include, but are not limited to, Java, JavaScript and Neo4j, as well as some high-level knowledge on blockchain technologies.
 I have been certified as Certified Blockchain Solution Architect and Certified Neo4j Professional Developer.
 
 Before diving into the IT indusry, I completed a Master of Engineering program in Materials and Manufacturing Science in Graduate School of Engineering, Osaka University; 
