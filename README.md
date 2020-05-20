@@ -4,4 +4,4 @@ This is [a personal portfolio web app](https://nori-tnk.github.io/graphistic-por
 
 ## License
 
-This app is MIT-licensed. Should you find any part of the app useful, feel free to use it! (But please be respectful so as not to abuse my personal info or anything in the assets directory.)
+This app is MIT-licensed. Although this app is not meant to be distributed, should you find any part of it useful, feel free to utilize it! (But please be respectful so as not to abuse my personal info or anything in the assets directory.)
