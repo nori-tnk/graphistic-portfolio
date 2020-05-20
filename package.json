@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "a static web site containing the graph showing publisher's experiences.",
   "main": "index.js",
-  "homepage": "https://nori-tnk.github.io/graphistic-portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-client": "npm run clean && parcel build client/src/index.html --out-dir docs --public-url https://nori-tnk.github.io/graphistic-portfolio",
