@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Box, Footer, Nav, Anchor } from "grommet";
-import { Github } from "grommet-icons";
+import { Github, Linkedin } from "grommet-icons";
 import contents from "../../assets/contents/license";
 import config from "./../../config";
 
@@ -17,10 +17,15 @@ class GlobalFooter extends Component {
         elevation="large"
       >
         <Box>{contents.copyright}</Box>
-        <Nav>
+        <Nav direction="row">
           <Anchor
             icon={<Github />}
             href={config.externalLinks.githubHome.path}
+          />
+          <Anchor
+            icon={<Linkedin />}
+            href={config.externalLinks.linkedIn.path}
+            target="_blank"
           />
         </Nav>
       </Footer>

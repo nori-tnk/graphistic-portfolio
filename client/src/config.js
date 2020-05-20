@@ -35,6 +35,10 @@ const config = {
       title: "nori-tnk/static-graphistic-portfolio",
       path: "https://github.com/nori-tnk/graphistic-portfolio",
     },
+    linkedIn: {
+      title: "LinkedIn",
+      path: "https://www.linkedin.com/in/noritsugu-tanaka-0499261a9",
+    },
     demoVid: {
       title: "Graph app quick guide",
       path: "https://www.youtube-nocookie.com/embed/NDvEoRcTZrU",
