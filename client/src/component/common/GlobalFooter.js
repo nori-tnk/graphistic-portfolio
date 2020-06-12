@@ -33,5 +33,4 @@ class GlobalFooter extends Component {
   }
 }
 
-// export default GlobalFooter;
 export { GlobalFooter as default, footerHeight };

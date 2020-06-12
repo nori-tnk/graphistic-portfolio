@@ -16,9 +16,8 @@ import Graph from "./Graph";
 import GraphDescription from "./GraphDescription";
 import CollaplibleBus from "./CollapsibleBus";
 import GraphCarousel from "./GraphCarousel";
-import config from "../../config";
+import config, { data } from "../../config";
 import contents from "../../assets/contents/graphPage";
-import data from "../../assets/data/experiences.1.0";
 import { queryDarkMode } from "../../service/urlParser";
 import "../../style/style.css";
 

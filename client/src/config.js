@@ -1,6 +1,7 @@
 import { grommet } from "grommet/themes";
 import { deepMerge } from "grommet/utils";
 import customTheme from "./style/customTheme00.json";
+import data from "./assets/data/experiences.1.1"; // change here to update graph data
 
 const config = {
   hashRoutes: true,
@@ -9,6 +10,9 @@ const config = {
     home: { title: "Home", path: "/" },
     graph: { title: "Experience Graph", path: "/graph" },
     about: { title: "About", path: "/about" },
+  },
+  graph: {
+    data,
   },
   doc: {
     title: "Report",
@@ -60,4 +64,4 @@ if (config.hashRoutes) {
   });
 }
 
-export default config;
+export { config as default, data };
